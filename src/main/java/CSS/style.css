@@ -1,0 +1,101 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: "Bellefair", serif;
+  font-size: 1.1em; }
+
+#brand {
+  font-size: 2em; }
+
+h1 {
+  margin: 25px 0;
+  text-align: center; }
+
+h2 {
+  color: grey; }
+
+nav {
+  width: 100%;
+  padding-bottom: 0; }
+
+#navigation {
+  padding-top: 0;
+  padding-bottom: 25px;
+  justify-content: center; }
+
+
+#center {
+  justify-content: center; }
+
+#navbarTogglerDemo01 {
+  justify-content: center; }
+  @media screen and (max-width: 480px) {
+    #navbarTogglerDemo01 {
+      justify-content: center; } }
+
+
+#banner {
+  width: 100%; }
+  @media screen and (max-width: 500px) {
+    #banner {
+      display: none; } }
+
+.filter-button {
+  border-radius: 5px;
+  text-align: center;
+  color: grey;
+  margin-bottom: 50px;
+  }
+
+.filter-button:hover {
+  font-size: 18px;
+  border-radius: 5px;
+  text-align: center;
+  color: grey;
+  }
+
+.port-image {
+  width: 100%; }
+
+.gallery_product {
+  margin-bottom: 50px; }
+
+#all {
+  width: 100%; }
+
+hr {
+  margin: 0; }
+
+#gallery {
+  background-color: 0; }
+
+footer {
+  background-color: pink;
+  margin-top: 30px;
+  height: 30px;
+  display: flex; }
+  footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+
+@media screen and (max-width: 480px) {
+    #location .info {
+      width: 100%; }
+
+  footer {
+    flex-wrap: wrap;
+    height: auto;
+    justify-content: center;
+    margin-top: 25px; }
+    footer .container {
+      width: 100%;
+      text-align: center; }
+
+  .info {
+    margin-top: 25px; } }
+@media screen and (max-width: 768px) {
+  .footer {
+    height: 150px;
+    text-align: center; }
+
